@@ -20,10 +20,10 @@ const realm = "Restricted area"
 const defaultServerPort = "5000"
 const defaultUserName = "admin"
 const defaultUserPassword = "$CrazyUnforgettablePassword?"
-const defaultUploadPath = "./tmp"
+const defaultUploadPath = "./fs"
 const defaultReadWriteMode = "rw"
 
-var fsBaseDir = "./fs"
+var fsBaseDir = defaultUploadPath
 var readWriteMode = defaultReadWriteMode
 var config Config
 var port = defaultServerPort
