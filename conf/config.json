@@ -1,0 +1,23 @@
+{
+  "users": {
+    "full": {
+      "password": "fullPASS",
+      "paths": {
+        "/": "rw"
+      }
+    },
+    "sample": {
+      "password": "samplePASS",
+      "paths": {
+        "/sample": "rw",
+        "/shared": "r"
+      }
+    },
+    "basic": {
+      "password": "basicPASS",
+      "paths": {
+        "/basic": "r"
+      }
+    }
+  }
+}
