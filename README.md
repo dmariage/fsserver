@@ -2,4 +2,4 @@
 
 An advanced file server
 
-add authentication
+add user authentication
